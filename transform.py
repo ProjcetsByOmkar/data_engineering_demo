@@ -1,11 +1,11 @@
 def calculate_total_revenue(sales):
 
-    total = 0
+    # total = 0
 
-    for row in sales:
-        total += row["price"] * row["qty"]
+    # for row in sales:
+    #     total += row["price"] * row["qty"]
 
-    return total
+    return 0 #total
 
 
 if __name__ == "__main__":
