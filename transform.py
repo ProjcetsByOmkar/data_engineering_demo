@@ -5,7 +5,7 @@ def calculate_total_revenue(sales):
     for row in sales:
         total += row["price"] * row["qty"]
 
-    return total * 1.18
+    return total
 
 
 if __name__ == "__main__":
