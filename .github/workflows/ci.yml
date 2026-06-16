@@ -36,3 +36,6 @@ jobs:
       - name: Run Linting
         run: |
           flake8 .
+        
+      - name: Debug files
+        run: ls -R
